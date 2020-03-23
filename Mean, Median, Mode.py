@@ -21,5 +21,5 @@ medi=(arr[x1]+arr[x2])/2
 median=round(medi,1)
 print(median)
 
-#mode
+#mode using scipy
 print(int(stats.mode(arr)[0]))
