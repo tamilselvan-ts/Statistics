@@ -19,7 +19,7 @@ x2=x1-1
 
 medi=(arr[x1]+arr[x2])/2
 median=round(medi,1)
-print(median)
+#print(median)
 
 #mode using scipy
 print(int(stats.mode(arr)[0]))
